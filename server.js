@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article_one', function (req, res) {
-    res.sendFile('This is article one');
+    res.send('This is article one');
 });
 
 app.get('/article_two', function (req, res) {
